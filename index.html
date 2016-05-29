@@ -303,25 +303,15 @@
 
       
         
-          
-            <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>在进行接下来操作之前，先花点时间了解下 <a href="https://www.google.com.hk/?gws_rd=ssl#newwindow=1&amp;safe=strict&amp;q=github+pages" target="_blank" rel="external"><strong>Github Pages</strong></a> 和 <a href="https://www.google.com.hk/?gws_rd=ssl#newwindow=1&amp;safe=strict&amp;q=Hexo" target="_blank" rel="external"><strong>Hexo</strong></a></p>
+          <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>在进行接下来操作之前，先花点时间了解下 <a href="https://www.google.com.hk/?gws_rd=ssl#newwindow=1&amp;safe=strict&amp;q=github+pages"><strong>Github Pages</strong></a> 和 <a href="https://www.google.com.hk/?gws_rd=ssl#newwindow=1&amp;safe=strict&amp;q=Hexo"><strong>Hexo</strong></a></p>
 <h2 id="创建一个Github-pages"><a href="#创建一个Github-pages" class="headerlink" title="创建一个Github pages"></a>创建一个Github pages</h2><p>在你的github账号里新建一个repository，名字为 <em>username</em>.github.io ，其中username为你账号的用户名</p>
 <p>进入新建的repository，点击setting，红色的danger zone上面有个github pages设置区，进行相应设置即可。</p>
 <p>具体不懂得问题自行Google。</p>
-<h2 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h2><p>直接下载安装包，一路next。</p>
-<h2 id="安装github-desktop"><a href="#安装github-desktop" class="headerlink" title="安装github desktop"></a>安装github desktop</h2><p>下载安装包安装。</p>
-<h2 id="建立Hexo博客框架"><a href="#建立Hexo博客框架" class="headerlink" title="建立Hexo博客框架"></a>建立Hexo博客框架</h2><p>在Github desktop默认目录下建立一个Hexo文件夹，你也可以命名为其他或者放在其他地方</p>
-<p>进入git bash，cd到你刚刚建立的目录，执行下面命令：</p>
-<pre><code>$ npm install hexo-cli -g
-$ hexo init
-$ npm install
-$ hexo server -p 5000
-</code></pre><p>用浏览器访问localhost：5000就可预览初始页面。</p>
-<h2 id="个性化Hexo"><a href="#个性化Hexo" class="headerlink" title="个性化Hexo"></a>个性化Hexo</h2><p><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">安装NexT主题</a></p>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p>Markdown编辑器：<a href="http://markdownpad.com/download.html" target="_blank" rel="external">http://markdownpad.com/download.html</a></p>
-<p><a href="http://sunwhut.com/2015/10/30/buildBlog/" target="_blank" rel="external">如何利用GitHub Pages和Hexo快速搭建个人博客</a></p>
-
-          
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/05/29/利用GitHub-Pages和Hexo搭建个人博客/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -419,18 +409,15 @@ $ hexo server -p 5000
 
       
         
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+          <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/05/29/hello-world/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
